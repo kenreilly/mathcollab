@@ -1,0 +1,82 @@
+﻿body, nav.navbar {
+    background-color: #eaeeef;
+}
+body, h1, h2, h3, h4, h5, p {
+    color: #182742;
+}
+.navbar-inverse > div.container {
+    background-color: #182742;
+    height: 56px;
+    padding-top: 4px;
+    border-bottom: 4px solid #182742;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+nav.navbar {
+    margin-bottom: 0;
+    border: none;    
+}
+.navbar-inverse .navbar-nav > li > a,
+.navbar-inverse .navbar-brand {
+    padding-left: 24px;
+    padding-right: 24px;
+    font-size: 18px;
+    color: #eaeeef;    
+}
+.navbar-inverse .navbar-brand {
+    font-size: 20px;
+}
+
+header {   
+    height: 400px;    
+}
+header .container {
+    padding: 80px;
+    padding-top: 80px;
+}
+header h1 {
+    font-size: 68px;
+    font-weight: bold;
+}
+header h2 {
+    font-size: 30px;
+    margin-top: 28px;
+    width: 340px;
+}
+header h3 {
+    float: right;
+    margin-top: 24px;
+    width: 340px;    
+}
+header button {
+    margin-right: 20px;
+}
+
+button.btn-primary {
+    background-color: #182742;
+}
+
+.container.info {
+    border: 4px solid #182742;
+    border-radius: 6px;
+    background-color: #182742;
+    padding: 72px;
+    padding-top: 60px;
+}
+.container.info .col-lg-6 {
+    background-color: #eaeeef;
+    border: 4px solid #eaeeef;  
+    border-radius: 6px;
+    padding: 36px;    
+    width: 492px;
+    height: 280px;    
+}
+.container.info h2 {
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 28px;
+}
+.container.info li {
+    font-size: 22px;
+    margin-top: 12px;
+}
