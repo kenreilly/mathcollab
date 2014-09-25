@@ -101,6 +101,7 @@ h6 {
 
 .section-heading {
     margin-bottom: 30px;
+    width: 340px;
 }
 
 .section-heading-spacer {
@@ -163,4 +164,36 @@ footer {
 
 p.copyright {
     margin: 15px 0 0;
+}
+
+@media(min-width: 1200px) {
+
+    .fa-container {
+        padding-top: 36px;
+    }
+    .fa-container > .fa-5 {
+        font-size: 12em;
+        margin-right: 26px;
+        vertical-align: middle;
+    }
+    .fa-container > .fa-5.fa-pencil-square-o {
+        font-size: 15em;
+        padding-top: 20px;
+    }
+     .fa-container > .fa-5.fa-desktop {
+        font-size: 10em;
+        padding-top: 40px;
+    }
+    .fa-container > .fa-5.fa-cloud {
+        margin-right: 0;
+        font-size: 11em;
+        padding-top: 20px;
+    }
+    .fa-container > .fa-5.fa-exchange {
+        font-size: 10em;
+        padding-top: 20px;
+    }
+    .fa-container > .fa-5.fa-group {
+        font-size: 10em;
+    }
 }
