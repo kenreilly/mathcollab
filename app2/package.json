@@ -1,0 +1,15 @@
+{
+  "name": "app2",
+  "version": "0.0.0",
+  "description": "app2",
+  "main": "mathCollab.js",
+  "author": {
+    "name": "Kenneth",
+    "email": ""
+  },
+  "dependencies": {0
+    "express": "3.*",
+    "jade": "*",
+    "stylus": "*"
+  }
+}
