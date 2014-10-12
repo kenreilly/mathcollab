@@ -31,14 +31,18 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="app.js" />
+    <Compile Include="app\models\user.js" />
+    <Compile Include="app\routes.js" />
+    <Compile Include="config\database.js" />
+    <Compile Include="config\passport.js" />
     <Compile Include="public\js\bootstrap.js" />
     <Compile Include="public\js\bootstrap.min.js" />
     <Compile Include="public\js\jquery-1.11.0.js" />
-    <Compile Include="routes\index.js" />
-    <Compile Include="routes\user.js" />
+    <Compile Include="views\pages\signup.ejs" />
     <Content Include="package.json" />
     <Content Include="public\css\bootstrap.css" />
     <Content Include="public\css\bootstrap.min.css" />
+    <Content Include="public\css\global.css" />
     <Content Include="public\css\landing-page.css" />
     <Content Include="public\font-awesome-4.1.0\css\font-awesome.css" />
     <Content Include="public\font-awesome-4.1.0\css\font-awesome.min.css" />
@@ -82,14 +86,15 @@
     <Content Include="public\img\intro-bg.jpg" />
     <Content Include="public\img\ipad.png" />
     <Content Include="public\img\phones.png" />
-    <Content Include="public\index.html" />
+    <Content Include="views\pages\index.ejs" />
     <Content Include="public\stylesheets\style.styl" />
     <Content Include="README.md" />
-    <Content Include="views\index.jade" />
-    <Content Include="views\layout.jade" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="app\models\" />
     <Folder Include="bin\" />
+    <Folder Include="config\" />
+    <Folder Include="app\" />
     <Folder Include="public\" />
     <Folder Include="public\css\" />
     <Folder Include="public\font-awesome-4.1.0\" />
@@ -100,13 +105,18 @@
     <Folder Include="public\fonts\" />
     <Folder Include="public\images\" />
     <Folder Include="public\img\" />
-    <Folder Include="public\javascripts\" />
     <Folder Include="public\js\" />
     <Folder Include="public\stylesheets\" />
-    <Folder Include="routes\" />
     <Folder Include="views\" />
+    <Folder Include="views\pages\" />
+    <Folder Include="views\partials\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="views\pages\login.ejs" />
+    <Content Include="views\pages\profile.ejs" />
+    <Content Include="views\partials\footer.ejs" />
+    <Content Include="views\partials\head.ejs" />
+    <Content Include="views\partials\nav.ejs" />
     <Content Include="Web.config" />
     <Content Include="Web.cloud.config" />
     <Content Include="bin\ChangeConfig.ps1" />
