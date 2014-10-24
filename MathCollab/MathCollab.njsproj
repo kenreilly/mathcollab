@@ -37,6 +37,7 @@
     <Compile Include="config\passport.js" />
     <Compile Include="public\js\bootstrap.js" />
     <Compile Include="public\js\bootstrap.min.js" />
+    <Compile Include="public\js\fb.js" />
     <Compile Include="public\js\jquery-1.11.0.js" />
     <Compile Include="views\pages\signup.ejs" />
     <Content Include="package.json" />
