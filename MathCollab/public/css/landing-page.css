@@ -56,6 +56,34 @@
     .intro-divider {
         width: 100%;
     }
+      .fa-container {
+        padding-top: 36px;
+    }
+    .fa-container > .fa-5 {
+        font-size: 8em;
+        margin-right: 26px;
+        vertical-align: middle;
+    }
+    .fa-container > .fa-5.fa-pencil-square-o {
+        font-size: 12em;
+        padding-top: 20px;
+    }
+     .fa-container > .fa-5.fa-desktop {
+        font-size: 8em;
+        padding-top: 40px;
+    }
+    .fa-container > .fa-5.fa-cloud {
+        margin-right: 0;
+        font-size: 11em;
+        padding-top: 20px;
+    }
+    .fa-container > .fa-5.fa-exchange {
+        font-size: 8em;
+        padding-top: 20px;
+    }
+    .fa-container > .fa-5.fa-group {
+        font-size: 8em;
+    }
 }
 
 .network-name {
@@ -114,6 +142,8 @@
         float: left;
         margin-top: 15px;
     }
+   
+
 }
 
 @media(max-width:767px) {
@@ -131,6 +161,37 @@
 
     ul.banner-social-buttons > li:last-child {
         margin-bottom: 0;
+    }
+}
+
+@media (min-width: 767px) {
+       .fa-container {
+        padding-top: 36px;
+    }
+    .fa-container > .fa-5 {
+        font-size: 7.5em;
+        margin-right: 26px;
+        vertical-align: middle;
+    }
+    .fa-container > .fa-5.fa-pencil-square-o {
+        font-size: 10em;
+        padding-top: 20px;
+    }
+     .fa-container > .fa-5.fa-desktop {
+        font-size: 6em;
+        padding-top: 40px;
+    }
+    .fa-container > .fa-5.fa-cloud {
+        margin-right: 0;
+        font-size: 7em;
+        padding-top: 20px;
+    }
+    .fa-container > .fa-5.fa-exchange {
+        font-size: 6em;
+        padding-top: 20px;
+    }
+    .fa-container > .fa-5.fa-group {
+        font-size: 7em;
     }
 }
 
